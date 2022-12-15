@@ -18,11 +18,26 @@ section {
  footer {
     height: 500px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    
   }
+
+  .footer-socials {
+    display: inline-block;
+    
+  }
+
+ .social-text {
+  margin: 20px;
+ }
+
   
 nav {
     display: flex;
     justify-content: space-between;
+    
   }
   
 ul {
@@ -51,6 +66,10 @@ p {
     font-size: 30px;
     font-weight: 100;
 }
+.sub-text {
+  Font-size: 13px;
+  font-weight: 300;
+}
 
 .head-area {
 display: flex;
@@ -75,15 +94,19 @@ align-items: center;
   padding-top: 5px;
   margin-top: 20px;
 }
+
 .button:hover {
   background-color: rgb(34, 125, 125);
 }
 
 .button:active {
     background-color: blue;
+
 }
+
 .socials {
     padding-bottom: 200px;
+
 }
 
 .social {
@@ -114,11 +137,18 @@ align-items: center;
   align-items: center;
 }
 
+@media only screen and (max-width:1000px) {
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+}
+
 .project-card {
   width: 200px;
   height: 500px;
   box-shadow: 5px 5px 20px rgb(164, 162, 162);
-
 
 }
 
@@ -126,4 +156,15 @@ align-items: center;
   display: flex;
   justify-content: space-around;
   
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color:white
 }
